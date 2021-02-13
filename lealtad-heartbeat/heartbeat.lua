@@ -2,19 +2,19 @@
 
 Citizen.CreateThread(function()
     while true do
-    ExecuteCommand("heartbeat")
+    ExecuteCommand("heartbeat") -- Heartbeat 1
     Citizen.Wait(50)
-    ExecuteCommand("heartbeat")
+    ExecuteCommand("heartbeat") -- Heartbeat 2
     Citizen.Wait(50)
-    ExecuteCommand("heartbeat")
+    ExecuteCommand("heartbeat") -- Heartbeat 3
     Citizen.Wait(50)
-    ExecuteCommand("heartbeat")
+    ExecuteCommand("heartbeat") -- Heartbeat 4
     Citizen.Wait(50)
-    ExecuteCommand("heartbeat")
+    ExecuteCommand("heartbeat") -- Heartbeat 5
     Citizen.Wait(50)
-    ExecuteCommand("heartbeat")
+    ExecuteCommand("heartbeat") -- Heartbeat 6
     Citizen.Wait(50)
-    ExecuteCommand("heartbeat")
+    ExecuteCommand("heartbeat") -- Heartbeat 7
     Citizen.Wait(20000)  -- Los heartbeats se envian cada 20seg para evitar que el server deje de aparecer en la lista
     end
 end)
