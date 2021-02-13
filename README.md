@@ -11,12 +11,8 @@ ensure lealtad-heartbeat
 4. Poner esto arriba del CFG y abajo del todo (2 veces por si acaso):
 add_ace resource.lealtad-heartbeat command.heartbeat allow
 
-# Licencia
-
-Distribuido con licencia MIT, no se permite la copia del script para otro servidor que no sea LealtadRP.
-
 ## Contacto
 
 VisiBait - [@visibait](https://twitter.com/visibait) - grafoplays@gmail.com
 
-Link del Proyecto: [https://github.com/visibait/lealtad-enotes](https://github.com/visibait/lealtad-enotes)
+Link del Proyecto: [https://github.com/visibait/lealtad-heartbeat](https://github.com/visibait/lealtad-heartbeat)
