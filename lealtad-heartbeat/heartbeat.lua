@@ -1,4 +1,4 @@
--- Server Listing Fix by Visi
+-- Server Listing Fix by VisiBait for LealtadRP
 
 Citizen.CreateThread(function()
     while true do
